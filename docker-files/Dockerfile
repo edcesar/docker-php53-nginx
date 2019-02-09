@@ -1,4 +1,4 @@
-FROM edcesar/php53:latest
+FROM edcesar/php53-nginx:latest
 MAINTAINER Ed Cesar <edcesar@edcesar.com>
 
 ENV OS_LOCALE="pt_BR.UTF-8"
