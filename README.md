@@ -1,7 +1,6 @@
 ## Um ambiente simples e rápido para desenvolvimento de legados com o PHP-5.3
 
-###Contem:
-
+## Contem:
  - Ubuntu 12.04
  - PHP 5.3
  - nginx
