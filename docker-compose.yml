@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  vetor:
+    container_name: vetor  
+    build: ./docker-files
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html
+      - ./docker-files/nginx-logs/:/var/log/nginx/
+      - ./docker-files/php-logs:/var/log/php
+      - ./docker-files/php:/var/lib/php5
